@@ -2,8 +2,6 @@
 
 This script asynchronously sorts files from a source directory into subdirectories based on their file extensions.
 
----
-
 ## Option 1: Running Locally (Virtual Environment)
 
 1. **Create a virtual environment:**
@@ -30,8 +28,6 @@ python3 main.py --source ./test_source --output ./test_output
 ## Option 2: Running via Docker Compose
 
 This approach isolates the execution environment using Python 3.11, completely avoiding potential library incompatibility.
-
-Ensure your Docker daemon is running, and execute:
 
 ```
 docker compose run --rm file-sorter
