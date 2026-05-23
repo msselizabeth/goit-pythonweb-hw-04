@@ -29,7 +29,7 @@ python3 main.py --source ./test_source --output ./test_output
 
 ## Option 2: Running via Docker Compose
 
-This approach isolates the execution environment using a dedicated Docker container (Python 3.11), completely avoiding potential library incompatibility.
+This approach isolates the execution environment using Python 3.11, completely avoiding potential library incompatibility.
 
 Ensure your Docker daemon is running, and execute:
 
