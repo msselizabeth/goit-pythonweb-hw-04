@@ -1,0 +1,10 @@
+services:
+  file-sorter:
+    build: .
+    profiles: ["cli"] 
+    volumes:
+     
+      - ./test_source:/data/source
+      - ./test_output:/data/output
+    
+    command: ["--source", "/data/source", "--output", "/data/output"]
