@@ -51,9 +51,7 @@ async def read_folder(src_folder: AsyncPath, dest_folder: AsyncPath) -> None:
 
 
 async def main() -> None:
-    parser = argparse.ArgumentParser(
-        description="Async file sorter based on extensions."
-    )
+    parser = argparse.ArgumentParser()
     parser.add_argument("--source", "-s", required=True, help="Source directory path")
     parser.add_argument("--output", "-o", required=True, help="Output directory path")
 
